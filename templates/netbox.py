@@ -180,7 +180,7 @@ class Templates:
                 nb_obj_type="interfaces",
                 key="type",
                 value=itype
-                ) if itype else None,
+                ) if itype else "other",
             "enabled": enabled,
             "mtu": mtu,
             "mac_address": mac_address.upper() if mac_address else None,
